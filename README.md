@@ -39,7 +39,7 @@ Clone & run `meteor`. Easy!
 For a more detailed explanation of all of the features and opinions in this
 boilerplate, please refer to the excellent
 [page](https://themeteorchef.com/base/) by Ryan Glover
-([The Meteor Chef](https://twitter.com/themeteorchef))
+([@themeteorchef](https://twitter.com/themeteorchef))
 
 ### Contributors
 
