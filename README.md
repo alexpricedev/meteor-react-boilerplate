@@ -23,8 +23,7 @@ Clone & run `meteor`. Easy!
 - Automatic account creation for an administrator and five test users.
 - A collection of packages for adding additional functionality.
 
-### Noticeable differences from
-    [`themeteorchef/base`](https://github.com/themeteorchef/base)
+### Noticeable differences from [`themeteorchef/base`](https://github.com/themeteorchef/base)
 
 - Converted templates to React (`.jsx`)
 - Removal of Bootstrap and associated markup
