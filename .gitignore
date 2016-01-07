@@ -1,0 +1,8 @@
+.DS_Store
+settings-production.json
+npm-debug.log
+**/*.swp
+**/*.swo
+.editorconfig
+.tern-project
+.jshintrc

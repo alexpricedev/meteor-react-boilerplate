@@ -1,0 +1,24 @@
+// ==============================================
+// Misc. global styles
+// ==============================================
+
+html, body {
+    @include clearfix();
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    min-height: 0;
+}
+
+// Remove border-radius on iOS
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="button"],
+input[type="submit"] {
+    -webkit-appearance: none;
+    border-radius: 0;
+}

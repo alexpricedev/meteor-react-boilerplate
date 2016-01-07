@@ -1,0 +1,15 @@
+// ==============================================
+// Project colour declarations
+// ==============================================
+
+// Main project colours
+@function black($opacity:1) {
+    @return rgba(0, 0, 0, $opacity)
+}
+
+@function white($opacity:1) {
+    @return rgba(255, 255, 255, $opacity)
+}
+
+$black:   black();
+$white:   white();
