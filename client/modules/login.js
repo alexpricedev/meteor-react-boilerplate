@@ -26,19 +26,19 @@ let _validation = () => {
         required: 'Please enter your password'
       }
     },
-    submithandler() {
-      _handlelogin();
+    submitHandler() {
+      _handleLogin();
     }
   };
 };
 
-let _handlelogin = () => {
+let _handleLogin = () => {
   let email = $('[name="email"]').val();
   let password = $('[name="password"]').val();
 
-  meteor.loginwithpassword(email, password, (error) => {
+  Meteor.loginWithPassword(email, password, (error) => {
     if (error) {
-      bert.alert(error.reason, 'warning');
+      Bert.alert(error.reason, 'warning');
     }
   });
 };

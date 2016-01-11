@@ -4,8 +4,7 @@ let administrators = [{
     last: 'McAdmin'
   },
   email: 'admin@admin.com',
-  password: 'password',
-  isAdmin: true
+  password: 'password'
 }];
 
 let generateAccounts = () => {
@@ -45,9 +44,7 @@ let _createUser = (user) => {
     email: user.email,
     password: user.password,
     profile: {
-      name: user.name,
-      isAdmin: user.isAdmin,
-      counsellor: user.counsellor
+      name: user.name
     }
   });
 };
@@ -62,11 +59,7 @@ let _generateFakeUsers = (count) => {
         last: faker.name.lastName()
       },
       email: faker.internet.email(),
-      password: 'password',
-      isAdmin: false,
-      counsellor: Meteor.users.findOne({
-        'emails.address': 'admin@admin.com'
-      })
+      password: 'password'
     });
   }
 
