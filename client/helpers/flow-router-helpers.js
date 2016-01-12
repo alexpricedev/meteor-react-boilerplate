@@ -4,7 +4,9 @@ let pathFor = (path, params) => {
 };
 
 let urlFor = (path, params) => {
-  return Meteor.absoluteUrl(pathFor(path, params));
+	return Meteor.absoluteUrl(
+		pathFor(path, params).substring(1)
+	);
 };
 
 let currentRoute = (route) => {
